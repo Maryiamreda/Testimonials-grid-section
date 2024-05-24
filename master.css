@@ -1,0 +1,180 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    --first-text-colorhsl: 0, 0%, 81%;
+}
+
+.flex img,
+picture {
+    max-width: 100%;
+    display: block;
+    width: 1.75rem;
+    border-radius: 50%;
+}
+
+.quotation {
+    width: 50px;
+    height: 00px;
+    left: 0px;
+    top: 20px;
+    position: relative;
+    z-index: -1;
+}
+
+.name {
+    font-size: 0.8125rem;
+    font-weight: 500;
+    line-height: 1;
+}
+
+.position {
+    font-size: 0.6875rem;
+    opacity: 0.5;
+}
+
+.du {
+    border: red solid 10px;
+    width: 100%;
+    height: 100%;
+}
+
+body {
+    height: 100vh;
+    line-height: 1.5;
+    background-color: hsl(210, 46%, 95%);
+    display: grid;
+    place-content: center;
+    font-family: "Barlow Semi Condensed", sans-serif;
+    max-width: 1440px;
+
+}
+
+.container {
+    width: 69vw;
+
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: 250px 230px;
+    gap: 30px;
+
+}
+
+.flex {
+    display: flex;
+    gap: var(--gap, 1rem);
+}
+
+article {
+    padding: 2rem;
+    border-radius: 0.5rem;
+}
+
+.span-2 {
+    grid-column: span 2;
+}
+
+.one p,
+.two p,
+.five p {
+    color: hsl(0, 0%, 81%);
+}
+
+.one h3,
+.two h3,
+.five h3 {
+    color: whitesmoke;
+    font-weight: 500;
+
+}
+
+.one h2,
+.two h2,
+.five h2 {
+    color: whitesmoke;
+    font-weight: 400;
+
+}
+
+.four p,
+.three p {
+    color: hsl(0, 0%, 60%);
+
+}
+
+
+h3 {
+    padding-top: 10px;
+    font-size: 0.96rem;
+}
+
+
+.one {
+    background-color: hsl(263, 55%, 52%);
+    background-image: url(./bg-pattern-quotation.svg);
+    background-repeat: no-repeat;
+    background-position: top 19px right 75px;
+    background-size: 75px 89px;
+}
+
+.two {
+    background-color: hsl(217, 19%, 35%);
+}
+
+.three {
+    background-color: white;
+    grid-row: span 2;
+    color: rgb(0, 0, 0 / 62%);
+    box-shadow: 2.5rem 3.75rem 3rem -3rem grey;
+
+}
+
+.four {
+    background-color: white;
+    color: rgb(0, 0, 0 / 62%);
+    box-shadow: 2.5rem 3.75rem 3rem -3rem grey;
+
+
+
+}
+
+.four h3,
+.three h3,
+.four h2,
+.three h2 {
+    color: hsl(217 19% 35%);
+    ;
+}
+
+.five {
+    background-color: hsl(219, 29%, 14%);
+    box-shadow: 2.5rem 3.75rem 3rem -3rem grey;
+
+}
+
+.five p {
+    font-size: 10px;
+}
+
+
+
+article>p:last-of-type {
+    padding-top: 18px;
+    font-size: 0.6rem;
+    font-weight: 500;
+}
+
+.attribution {
+    font-size: 11px;
+    text-align: center;
+}
+
+.attribution a {
+    color: hsl(228, 45%, 44%);
+}
+
+.name {
+    font-size: 0.8125rem;
+    font-weight: 500;
+    line-height: 1;
+}
