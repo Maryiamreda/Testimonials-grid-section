@@ -88,6 +88,14 @@ article {
 
 }
 
+.one h2,
+.two h2,
+.five h2 {
+    color: whitesmoke;
+    font-weight: 400;
+
+}
+
 .four p,
 .three p {
     color: hsl(0, 0%, 60%);
@@ -131,7 +139,9 @@ h3 {
 }
 
 .four h3,
-.three h3 {
+.three h3,
+.four h2,
+.three h2 {
     color: hsl(217 19% 35%);
     ;
 }
